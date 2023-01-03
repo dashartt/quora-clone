@@ -7,7 +7,7 @@ import { Box } from '@mui/material'
 
 export default function MHeader() {
   return (
-    <AppBar position='sticky' className='p-3 bg-slate-100 flex flex-row justify-between'>
+    <AppBar position='sticky' className='p-3 bg-gray-50 flex flex-row justify-between shadow-md'>
       <Box className='flex flex-row items-center space-x-3'>
         <Avatar
           className='border border-black'
