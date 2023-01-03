@@ -5,6 +5,7 @@ import { PropsWithChildren } from 'react'
 import { lightTheme } from './theme/themes'
 import { ThemeProvider, CssBaseline } from '@mui/material'
 import Header from '../components/header'
+import QuickInteraction from '../components/quick-interaction'
 
 export default function RootLayout({ children }: PropsWithChildren<{}>) {
   return (
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: PropsWithChildren<{}>) {
         <CssBaseline />
         <body id='__next' className='h-full bg-gray-800'>
           <Header />
+          <QuickInteraction />
           {children}
         </body>
       </ThemeProvider>
