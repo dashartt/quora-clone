@@ -13,7 +13,7 @@ export default function MHeader() {
           className='border border-black'
           src='https://i0.wp.com/nerdizmo.uai.com.br/wp-content/uploads/sites/29/2022/10/ichigo-kurosaki-retorno-bleach.jpg?fit=1280%2C720&ssl=1'
         />
-        <Typography className='text-black font-bold text-xl tracking-normal' variant='overline'>
+        <Typography className='text-black font-bold text-xl tracking-normal' variant='body1'>
           Page
         </Typography>
       </Box>

@@ -9,7 +9,7 @@ export default function QuickInteraction() {
       <Box className='flex space-x-3 pt-2 px-2 '>
         <Avatar src='https://i0.wp.com/nerdizmo.uai.com.br/wp-content/uploads/sites/29/2022/10/ichigo-kurosaki-retorno-bleach.jpg?fit=1280%2C720&ssl=1' />
         <Button className='px-4 flex flex-col bg-[#f5f6f6] hover:bg-[#eceeee] rounded-full w-full cursor-pointer'>
-          <Typography fontFamily='initial' variant='overline' className='self-start text-gray-500'>
+          <Typography variant='body1' className='self-start text-gray-500 normal-case'>
             What do you want to ask or share?
           </Typography>
         </Button>

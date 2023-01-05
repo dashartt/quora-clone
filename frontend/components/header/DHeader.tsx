@@ -13,19 +13,7 @@ import IconButton from '@mui/material/IconButton'
 import Image from 'next/image'
 import Zoom from '@mui/material/Zoom'
 import styled from '@emotion/styled'
-
-const LightTooltip = styled(({ className, ...props }: TooltipProps) => (
-  <Tooltip {...props} classes={{ popper: className }} />
-))(() => ({
-  [`& .${tooltipClasses.tooltip}`]: {
-    backgroundColor: '#ffffff',
-    color: '#000000',
-    fontSize: 11,
-    borderRadius: '2em',
-    padding: '5px 1.2em',
-    border: '0.2px solid #c8c4c4',
-  },
-}))
+import { LightTooltip } from '../tooltips'
 
 export default function DHeader() {
   return (
